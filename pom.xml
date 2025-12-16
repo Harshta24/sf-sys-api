@@ -37,10 +37,10 @@
 					<password>${anypoint.password}</password>
 					<applicationName>salesforce-system-api-d</applicationName>
 					<environment>Sandbox</environment>
-					<target>Cloudhub-2.0</target>
-					<region>us-east-2</region>
-					<replicas>1</replicas>
-					<objectStoreV2>true</objectStoreV2>
+					<target>Cloudhub-US-East-2</target>
+            		<replicas>1</replicas>
+            		<replicaDedicatedMemory>0.1 vCPU, 0.2 GiB</replicaDedicatedMemory>
+            		<persistentQueues>true</persistentQueues>
 				</cloudHub2Deployment>
 				</configuration>
 			</plugin>
@@ -114,6 +114,7 @@
 	</pluginRepositories>
 
 </project>
+
 
 
 
