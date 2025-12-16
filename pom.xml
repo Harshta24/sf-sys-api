@@ -37,7 +37,7 @@
 					<password>${anypoint.password}</password>
 					<applicationName>salesforce-system-api-d</applicationName>
 					<environment>Sandbox</environment>
-					<workerType>MICRO</workerType>
+					<target>Cloudhub-2.0</target>
 					<region>us-east-2</region>
 					<replicas>1</replicas>
 					<objectStoreV2>true</objectStoreV2>
@@ -114,6 +114,7 @@
 	</pluginRepositories>
 
 </project>
+
 
 
 
