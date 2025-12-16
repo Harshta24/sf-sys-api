@@ -1,0 +1,5 @@
+%dw 2.0
+
+type auto_77431c28_3923_4000_a6e9_72a1cf5efd6d_Input_Payload = Array<{|  Id: String,   Name: String,   Type: String,   Industry: String,   Phone: String,   Website: String,   AccountNumber: String,   AnnualRevenue: Number,   NumberOfEmployees: Number,   Ownership: String,   Rating: String,   BillingStreet: String,   BillingCity: String,   BillingState: String,   BillingPostalCode: String,   BillingCountry: String,   ShippingStreet: String,   ShippingCity: String,   ShippingState: String,   ShippingPostalCode: String,   ShippingCountry: String,   Description: String,   CreatedDate: String,   LastModifiedDate: String|}> {"mediaType": "application/json",
+"encoding": "UTF-8"}
+

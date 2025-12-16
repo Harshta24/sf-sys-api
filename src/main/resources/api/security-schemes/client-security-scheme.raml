@@ -1,0 +1,16 @@
+#%RAML 1.0 SecurityScheme
+type: x-client-security
+describedBy:
+  headers:
+    client_id:
+      type: string
+      required: true
+    client_secret:
+      type: string
+      required: true
+  responses:
+    401:
+      body:
+        application/json:
+          example: !include /examples/error-responses/error-response-400.json
+            
