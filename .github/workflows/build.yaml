@@ -2,7 +2,7 @@ name: Build and Deploy to Sandbox
 
 on:
   push:
-    branches: [ main ]
+    branches: [ feature-1 ]
   pull_request:
     branches: [ main ]
     
