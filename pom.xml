@@ -39,7 +39,7 @@
 					<environment>Sandbox</environment>
 					<workerType>MICRO</workerType>
 					<region>us-east-2</region>
-					<workers>1</workers>
+					<replicas>1</replicas>
 					<objectStoreV2>true</objectStoreV2>
 				</cloudHub2Deployment>
 				</configuration>
@@ -108,5 +108,6 @@
 	</pluginRepositories>
 
 </project>
+
 
 
