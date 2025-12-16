@@ -93,9 +93,11 @@
 			<layout>default</layout>
 		</repository>
 		<repository>
-    <id>central</id>
-    <url>https://repo.maven.apache.org/maven2</url>
-  </repository>
+    <id>Nexus</id>
+    <name>Nexus Public Repository</name>
+    <url>https://repository-master.mulesoft.org/nexus/content/groups/public/</url>
+    <layout>default</layout>
+</repository>
 
 	</repositories>
 
@@ -112,6 +114,7 @@
 	</pluginRepositories>
 
 </project>
+
 
 
 
